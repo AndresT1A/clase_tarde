@@ -1,0 +1,122 @@
+nav{
+    padding:0;
+    width:100%;
+    
+    
+  }
+  a.navbar-brand{
+    font-size: 230%;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  img{
+    border-radius: 100%;
+  }
+  a.nav-link.active{
+    font-size: 190%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a.nav-link{
+    width:100%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 6vh;
+    padding:auto;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif; 
+  }
+.opciones{
+    display: flex;
+    
+    justify-content:center;
+}
+.opciones2{
+    display: flex;
+    justify-content:center;
+}
+.opciones3{
+  display: flex;
+  justify-content:center;
+}
+
+.agregaradmin{
+    display: inline-flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    padding:3%
+}
+
+.agregaradmin a{
+    
+    width:16vw;
+    
+}
+.agregaradmin img{
+      width:100%;
+      
+  }
+.agregaradmin img:hover{
+    transition: all 300ms ease-in-out;
+  box-shadow: 0px 15px 25px rgb(192, 146, 129);
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+
+.agregaradmin2 img:hover{
+    transition: all 300ms ease-in-out;
+  box-shadow: 0px 15px 25px rgb(192, 146, 129);
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+
+#inventario{
+    width:120%;
+}
+
+.agregaradmin2{
+    display: inline-flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    padding:4.1%
+}
+
+.agregaradmin2 a{
+    
+    width:16vw;
+    
+}
+.agregaradmin3 img{
+      width:100%;
+      
+  }
+
+  .agregaradmin3 img:hover{
+    transition: all 300ms ease-in-out;
+  box-shadow: 0px 15px 25px rgb(192, 146, 129);
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+
+
+.agregaradmin3{
+    display: inline-flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    padding:4.1%
+}
+
+.agregaradmin3 a{
+    
+    width:16vw;
+    
+}
+.agregaradmin3 img{
+      width:100%;
+      
+}

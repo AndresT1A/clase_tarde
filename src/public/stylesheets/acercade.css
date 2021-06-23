@@ -1,0 +1,188 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin:0;
+}
+nav{
+    padding:0;
+    width:100%;
+    
+    
+  }
+  a.navbar-brand{
+    font-size: 230%;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  a.nav-link.active{
+    font-size: 190%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a.nav-link{
+    width:100%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 6vh;
+    padding:auto;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+#bienvenida{
+    display: flex;
+   
+    margin-left: 5%;
+    color:#fff;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #bienvenida h1{
+    font-size: 110%;
+    width:350px;
+  }
+video{
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    
+}
+
+#chat{
+    position:fixed;
+    width:250px;
+    height:40px;
+    bottom:0;
+    right:5px;
+    background:rgb(209, 117, 209);
+    z-index:1;
+    color:white;
+    text-align:center;
+    line-height:40px;
+    font-family:'Montserrat', sans-serif;
+    font-size:20px;
+    border-radius:20px 20px 0 0;
+    cursor:pointer;
+
+}
+
+a #chat:hover{
+    background:rgb(226, 188, 130);
+}
+a #chat:active{
+    background:rgb(211, 210, 128);
+}
+
+#total{
+    border-style: solid;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40%;
+    background-color: aliceblue;
+}
+
+#nosotros{
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 100%;
+}
+
+#textonosotros{
+    text-align: justify;
+    margin-top: 2%;
+    font-size: 170%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+#mision{
+    border-style: solid;
+    
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+
+    position:relative;
+    background-color: aliceblue;
+}
+#titulomision{
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 100%;
+}
+
+footer{
+  
+    width:100%;
+    height:140px;
+    
+    padding:3%;
+    margin-top:8%;
+    background-color:#92a2d8
+  }
+  
+  .partes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:30%;
+    margin-left: 35%;
+    
+  }
+  .partes a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .partes a:hover{
+    color: brown;
+    cursor: pointer;
+  }
+  
+  .iconos {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    height:20%
+  }
+  
+  .fa-facebook{
+  font-size:300%;
+  color:#052077
+  }
+  .fa-instagram{
+    font-size:300%;
+    color:rgb(255, 0, 128)
+  }
+  
+  .fa-facebook:hover{
+    font-size:315% ;
+    color:#365fe7
+  }
+  .fa-instagram:hover{
+      font-size:315% ;
+      color:rgb(221, 84, 153)
+  
+  }
+  .derechos{
+    display: flex;
+    margin-top:2%;
+    justify-content:center;
+    font-size:80%;
+    text-decoration:overline underline
+  }
+
+ 

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="/resources/stylesheets/politicas.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1772257877.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="/">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="/politicas">Politicas</a>
+                <a class="nav-link" href="/productos">Esencias/fragancias</a>
+                <a class="nav-link" href="#">Carrito</a>
+                <div id="bienvenida">
+                  <% if (login){%>
+                    <h1>El usuario conectado es: <strong> <%=name%> </strong> </h1>
+                  <a href="logout" class="a-logout">Logout</a>
+                  <% } else { %>
+                    <h1> <strong> <%= name%> </strong> </h1>
+                    <a href="formulario" class="a-login">Ir a Login</a>
+                    <% } %>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+  <div id="privacidad">
+    <h1 class="titulos">POLITICA DE PRIVACIDAD</h1>
+    <p>Para SHARA es importante la seguridad de la informacion personal y el cumplimiento de las normas de proteccion de datos personales,por lo tanto, se busca garantizar la confidencialidad y la seguridad
+      de la informacion que es recolectada. la cual esta a su disposicion para consulta en cualquier momento.
+      Adicionalmente serán de aplicación la Ley 1581 de 2012, el Decreto 1377 de 2013 y los demás decretos y normas 
+      reglamentarias de la materia que sean expedidos por las autoridades competentes en la República de Colombia.
+</p>
+  </div>
+
+
+  <div class="objetivos">
+    <h1 class="titulos">OBJETIVO Y ALCANCE</h1>
+    <ol>
+      <li>
+        <p>
+          Esta Política describe los requisitos de privacidad de SHARA, con respecto al Procesamiento de Información Personal 
+      realizado por terceros con quienes SHARA comparte dicha información. Los terceros con quienes SHARA comparte Información Personal
+      incluyen a sus afiliados.
+        </p> 
+      </li>
+      <li>
+        <p>Esta Política establece los estándares globales de protección de datos aplicables por SHARA,en este sentido la misma refleja 
+          un estándar mínimo aplicable a nivel nacional por SHARA. Cuando las leyes locales aplicables establezcan un mayor nivel de protección
+          o tratamiento de la Información Personal que aquel establecido en esta Política, nos regiremos por las leyes locales aplicables. 
+          Cuando las leyes locales aplicables establezcan un menor nivel de protección o tratamiento de la Información Personal que aquel</p>  
+      </li>
+    </ol>
+  </div>
+  
+  <div class="principios">
+    <h1 class="titulos">PRINCIPIOS</h1>
+    <p>Además de lo establecido en este documento y en las políticas globales aplicables, especialmente la Política Corporativa de Privacidad y
+      Protección de Datos a Nivel Global, por los principios generales de tratamiento de datos personales consagrados en la Ley 1581 de 2012, los
+      cuales se describen continuación:<br><br>
+      
+          Principio de finalidad: El Procesamiento y Tratamiento de Información Personal que realice SHARA o cualquiera de los terceros a 
+          los que se refiere la presente Política, deberá obedecer a una finalidad legítima de acuerdo con la regulación aplicable, y ser en 
+          todo momento informada al titular de la información.
+          <br>
+          <br>
+          Principio de libertad:  A fin de realizar cualquier actividad de Procesamiento de la Información Personal siempre se requerirá 
+          el consentimiento, previo, expreso e informado del titular. Los datos personales no podrán ser obtenidos o divulgados sin previa 
+          autorización, o en ausencia de mandato legal o judicial que releve el consentimiento.    
+          <br>
+          <br>
+          Principio de veracidad o calidad:  Toda la Información Personal que recolecte SHARA o los terceros a quienes éste encargue el
+          tratamiento, deberá ser veraz, completa, exacta, actualizada, comprobable y comprensible. Bajo ninguna circunstancia se podrán
+          tratar datos parciales, incompletos, fraccionados o que induzcan a error.
+          <br>
+          <br>
+          Principio de transparencia: En todo momento se deberán garantizar los derechos al titular de la Información Personal, especialmente el de obtener del 
+          Responsable del Tratamiento o del Encargado del Tratamiento, en cualquier momento y sin restricciones, información acerca de la
+          existencia de datos que le conciernan. 
+          <br>
+          <br>
+          Principio de acceso y circulación restringidaEl Tratamiento se sujeta a los límites que se derivan de la naturaleza de los 
+          datos personales, de las disposiciones de la presente ley y la Constitución. En este sentido, el Tratamiento sólo podrá hacerse por
+          personas autorizadas por el Titular y/o por las personas previstas en la presente ley. 
+          <br>
+          <br>
+          Principio de seguridad :En todo momento, la Información Personal que recoja SHARA o cualquier tercero en su nombre se manejará
+          bajo estrictas medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su
+          adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. 
+          <br>
+          <br>
+          Principio de confidencialidad: Todos a quienes aplica esta Política estarán obligados a garantizar la reserva de la
+          información, inclusive después de finalizada su relación con alguna de las labores que comprende el Tratamiento. 
+
+</p>
+  </div>
+
+
+  <div class="aviso">
+    <h1 class="titulos">Aviso General De Privacidad</h1>
+    <p>En el caso en que al ingresar a nuestro aplicativo, o tener contacto con SHARA o cual cualquier funcionario de la compañía se
+      entreguen datos personales el titular declara que conoce los derechos y deberes que le asisten como titular de sus datos
+      personales, derechos que se encuentran consagrados en la Ley Estatutaria 1581 de Protección de Datos, sus decretos reglamentarios
+      y aquellas que la modifiquen y/o complementen, en adelante (la “Ley Aplicable”) y especialmente aquellos a conocer, rectificar y
+      actualizar los datos personales que reposan en las bases de datos de SHARA. Así mismo, al ingresar la información personal en la 
+      aplicativo de SHARA, tener contacto con SHARA o con cualquier funcionario y por consiguiente entregar datos personales, los titulares
+      otorgan su consentimiento previo, expreso e informado y autorizan a SHARA como responsable del tratamiento para:
+      <br>
+      a) recolectar,almacenar y archivar los datos personales que proporcionaran en desarrollo de la relación comercial con SHARA para el desarrollo de
+      su actividad económica y comercial.
+      <br>
+      b) que les sea enviada información en medios físicos, de audio o digitales (correo electrónico, mensajes de texto, redes sociales, etc.) sobre los productos y las actividades comerciales de SHARA; c) incorporar sus 
+      datos personales en las bases de datos de SHARA en cumplimiento de la ley. <br>
+      d) compartir y correlacionar las bases de datos en las cuales reposan sus datos personales y crediticios, con otras bases de datos de SHARA o de terceros contratados por este que cuenten 
+      con información estadística y de comportamiento del sector, o que presten servicios a SHARA, con el propósito de analizar, evaluar, 
+      generar datos estadísticos, indicadores, resultados y en general, cualquier propósito relacionado con la actividad económica y 
+      comercial de SHARA.
+      <br>
+      e) ser consultada(o) en cualquier momento y reportada(o) en las centrales de riesgo positiva o negativamente. <br>
+      f) en general tratar sus datos personales de conformidad con la ley, así como para las demás finalidades consagradas en la <a href="#privacidad">Política de Privacidad de SHARA.</a>  
+
+</p>
+  </div>
+
+  <footer>
+    <div class="iconos">
+        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+      </div>
+
+    <div class="partes">
+        <a href="/">Inicio</a>
+        <a href="/acercade">Acerca de</a>
+        <a href="/politicas">Políticas</a>
+        
+    </div>
+    
+<div class="derechos"> &copy; 2021 Shara, reservados todos los derechos. </div>
+</footer> 
+
+</body>
+</html>
