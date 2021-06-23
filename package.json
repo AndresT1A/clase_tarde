@@ -1,7 +1,7 @@
 {
   "name": "proyectofinal",
   "version": "1.0.0",
-  "description": "",
+  "description": "soy ejemplo de la sesion git ",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
