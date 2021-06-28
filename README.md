@@ -8,3 +8,5 @@ este es un repositorio de ejemplo
 soy un ejemplo de ramas 
 
 # titulo de rama nueva
+# editado desde ramaReto
+Hola soy una edicion de ramaReto
